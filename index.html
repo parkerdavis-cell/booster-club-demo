@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booster Club Demo MVP</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="brand">Booster Club MVP</div>
+      <div class="role-selector">
+        <label for="role-select">Role:</label>
+        <select id="role-select">
+          <option value="Admin">Admin</option>
+          <option value="Board">Board Officer</option>
+          <option value="Treasurer">Treasurer</option>
+          <option value="Concessions">Concessions Manager</option>
+          <option value="Sponsorships">Sponsorships Lead</option>
+          <option value="Volunteer">Volunteer Coordinator</option>
+          <option value="Coach">Coach / Team Rep</option>
+          <option value="Parent">Parent / Guardian</option>
+          <option value="Auditor">Auditor</option>
+          <option value="Sponsor">Sponsor</option>
+        </select>
+      </div>
+    </header>
+    <nav class="nav-bar">
+      <ul id="nav-menu">
+        <!-- Menu items will be injected by JS based on role -->
+      </ul>
+    </nav>
+    <main id="content">
+      <!-- Pages -->
+      <section id="home" class="page">
+        <h1>Home</h1>
+        <p>Welcome to the Booster Club MVP demo. Select a role to explore the system.</p>
+        <div class="dashboard" id="home-dashboard"></div>
+      </section>
+      <section id="events" class="page">
+        <h1>Events</h1>
+        <p>View and manage games, tournaments, and banquets.</p>
+        <div id="events-list"></div>
+      </section>
+      <section id="finance" class="page">
+        <h1>Finance</h1>
+        <p>Overview of funds, budgets, and transactions.</p>
+        <div id="finance-overview"></div>
+      </section>
+      <section id="concessions" class="page">
+        <h1>Concessions</h1>
+        <p>Track products, inventory, and purchase requests.</p>
+        <div id="concessions-overview"></div>
+      </section>
+      <section id="sponsorships" class="page">
+        <h1>Sponsorships</h1>
+        <p>Manage sponsorship packages and contracts.</p>
+        <div id="sponsorships-overview"></div>
+      </section>
+      <section id="ticketing" class="page">
+        <h1>Ticketing</h1>
+        <p>Configure and monitor ticket sales for events.</p>
+        <div id="ticketing-overview"></div>
+      </section>
+      <section id="volunteers" class="page">
+        <h1>Volunteers</h1>
+        <p>Coordinate shifts and sign‑ups for parents and students.</p>
+        <div id="volunteer-overview"></div>
+      </section>
+      <section id="teams" class="page">
+        <h1>Teams</h1>
+        <p>Team budgets, requests, and events.</p>
+        <div id="teams-overview"></div>
+      </section>
+      <section id="governance" class="page">
+        <h1>Governance</h1>
+        <p>Bylaws, meetings, and disclosures.</p>
+        <div id="governance-overview"></div>
+      </section>
+      <section id="reports" class="page">
+        <h1>Reports</h1>
+        <p>Standard reports for decision support.</p>
+        <div id="reports-overview"></div>
+      </section>
+      <section id="admin" class="page">
+        <h1>Admin</h1>
+        <p>Organization settings, users, roles, and integrations.</p>
+        <div id="admin-overview"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>© 2025 Booster Club Demo</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
