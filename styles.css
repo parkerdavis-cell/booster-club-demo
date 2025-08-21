@@ -1,0 +1,95 @@
+/* Basic styles for Booster Club MVP demo */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background-color: #2a4365;
+  color: #fff;
+}
+
+.brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.role-selector label {
+  margin-right: 0.5rem;
+}
+
+.role-selector select {
+  padding: 0.25rem;
+  font-size: 1rem;
+}
+
+.nav-bar {
+  background-color: #1a365d;
+}
+
+.nav-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow-x: auto;
+}
+
+.nav-bar li {
+  margin: 0;
+}
+
+.nav-bar a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.nav-bar a.active,
+.nav-bar a:hover {
+  background-color: #4c80bf;
+}
+
+main {
+  padding: 1rem;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.dashboard,
+.list {
+  margin-top: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2a4365;
+  color: #fff;
+}
